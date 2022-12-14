@@ -1,0 +1,356 @@
+
+body{
+    background-color: white !important;
+}
+.head1{
+    margin-left: 13%;
+    
+}
+
+
+.head2{
+    padding-right: 4rem;
+    margin-left: 7%;
+    
+}
+.side-nav{
+    margin-left: 5%;
+}
+.side-nav .nav-tel {
+    
+    color: #000;
+    border-radius: 50px;
+    padding: .7rem 2rem .7rem 2rem;
+    background-color: #ffcc03;
+    font-size: 14px;
+    font-weight: 500;
+    position: relative;
+    display: inline-block;
+    transition: .5s;
+    text-decoration: none;
+    
+}
+.nav-tel:hover{
+    background-color: #000;
+    color:white;
+}
+.row1 {
+    background-image: url(banner-main11.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 43rem;
+    width: fit-content;  
+}
+.row2{
+    position: relative;
+    
+    
+}
+
+.bnr2{
+    width: 70%;
+    height: 50%;
+    border-radius: 1rem;
+    margin-left:10rem; 
+    margin-top: 9rem;
+    
+}
+.bnr3{
+    
+    height: 60%;
+    border-radius: 1rem;
+    margin-left:11rem; 
+    margin-top: 8rem;
+}
+.rc1{
+    margin-left: 10rem; 
+    margin-top: 9rem;
+    font-size: 3.5rem;
+    font-family: 'Montserrat';
+    line-height: 1;
+        
+}
+.rc2{
+    margin-left:10rem ;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    line-height: 1;
+}
+.rc3{
+    margin-left: 5rem; 
+    margin-top: 9rem;
+    
+    font-size: 4rem;
+    font-family: 'Montserrat';
+    line-height: 1;
+        
+}
+.rc4{
+    margin-left:5rem ;
+    width: 40rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    line-height: 2;
+    
+}
+.call .callus{
+    color: #000;
+    border-radius: 50px;
+    padding: .7rem 2rem .7rem 2rem;
+    background-color: #ffcc03;
+    font-size: 15px;
+    font-weight: 600;
+    position: relative;
+    display: inline-block;
+    transition: .5s;
+    text-decoration: none;
+    margin-left: 5rem;
+}
+.orderNow .order{
+    color: #000;
+    border-radius: 50px;
+    padding: .7rem 2rem .7rem 2rem;
+    background-color: #ffcc03;
+    font-size: 15px;
+    font-weight: 600;
+    position: relative;
+    display: inline-block;
+    transition: .5s;
+    text-decoration: none;
+    margin-left: 10rem;
+}
+.callus:hover{
+    background-color: #000;
+    color:white;
+}
+.order:hover{
+    background-color: #000;
+    color:white;
+}
+.navbar-toggler{
+    margin-right: .5rem;
+}
+
+#end{
+    background-color: black;
+    color: white;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+}
+.row3{
+    padding-top: 7rem;
+   
+}
+.itm2{
+    line-height: 1rem;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    
+}
+.itm2:hover{
+    background-color: white;
+    color: black;
+    width: 15rem;
+    height: 1.5rem;
+    
+}
+.itm3{
+    color:white;
+    line-height: 1rem;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+}
+.itm33:hover{
+    
+    color: yellow;
+    
+    
+}
+.bnr4{
+    margin-left: 10rem;
+}
+.last{
+    text-align: center;
+}
+
+
+@media screen and (max-width:1000px){
+    .head1{
+        margin-left: 0;
+    }
+    .heading1{
+        background-color: white;
+    }
+    .row1{
+        text-align: center;
+        height: 60rem;
+        align-items: center;
+    }
+    .row2{
+        align-items: center;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    .bnr2{
+        width: 30rem;
+        /* height: 20rem; */
+        border-radius: 1rem;
+        margin-left: 0rem; 
+        margin-right: 0rem;
+        margin-top: -20rem;
+    }
+    .bnr3{
+        width: 30rem;
+        border-radius: 1rem;
+        margin-left: 0rem; 
+        margin-right: 0rem;
+        margin-top: 1rem;
+        
+    }
+    
+    .rc1{
+        text-align: center;
+        position: relative;
+        margin-top: -4rem;
+        margin-bottom: 1rem;
+        margin-left: 3rem;
+        margin-right: 3rem;
+        font-size: 2rem;
+        font-family:"Playfair Display", serif;;
+        line-height: 1;
+        
+    }
+    .rc2{
+        margin-left: 3rem;
+        margin-right: 3rem;
+        margin-top: 0rem;
+        margin-bottom: 0rem;
+        padding-bottom: 2.5rem;
+        
+        text-align: center;
+        line-height: 1;
+    }
+    .rc4{
+        margin-left: 1rem;
+        margin-right: 1rem;
+        font-size: 1rem;
+        width:fit-content;
+    }
+    .rc3{
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+    .call .callus{
+        margin-left: 0;
+    }
+    .orderNow .order{
+        margin-left: 0;
+        margin-top: 1rem;
+    }
+    .row3{
+        padding-top: 4rem;
+       
+    }
+    .lhead{
+        margin-top: 3rem;
+    }
+    .itm2{
+        line-height: 1rem;
+        margin-top: 2rem;
+        font-size: 1rem;
+        
+    }
+    .itm2:hover{
+        background-color: white;
+        color: black;
+        width: 15rem;
+        height: 1.5rem;
+        
+    }
+    .itm3{
+        color:white;
+        line-height: 1rem;
+        margin-top: 2rem;
+        font-size: 1rem;
+    }
+    .itm33:hover{
+        
+        color: yellow;
+        
+        
+    }
+    .bnr4{
+        margin-left: 1rem;
+    }
+    .last{
+        text-align: center;
+    }
+  
+    
+    
+}
+
+@media screen and (max-width:681px){
+    .bnr2{
+        width: 20rem;
+        
+
+    }
+    .bnr3{
+        width:20rem
+    }
+}
+
+/* @media screen and (max-width:681px){
+    .head1{
+        margin-left: 0;
+    }
+    .heading1{
+        background-color: white;
+    }
+    
+    .bnr2{
+        width: 25rem;
+        height: 21rem;
+        border-radius: 1rem;
+        margin-left: 0rem;
+        margin-top: -23rem;
+    }
+    
+    .rc1{
+        text-align: center;
+        position: relative;
+        margin-top: 4rem;
+        margin-bottom: -1rem;
+        margin-left: 4.5rem;
+        margin-right: 4.5rem;
+        font-size: 2rem;
+        font-family:"Playfair Display", serif;;
+        line-height: 1;
+        
+    }
+    .rc2{
+        margin-left: 5rem;
+        margin-right: 5rem;
+        margin-top: 2.5rem;
+        margin-bottom: 0rem;
+        text-align: center;
+        line-height: 1;
+    }
+    .orderNow .order{
+        margin-left: 0;
+        margin-top: 2rem;
+    }
+    
+    .row1{
+        text-align: center;
+        height: 82rem;
+        align-items: center;
+    }
+    .order:hover{
+        background-color: green;
+        color:white;
+    }
+} */
